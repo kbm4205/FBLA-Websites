@@ -1,1 +1,113 @@
+<!doctype html>
+<head>
+<title> FBLA at McCluer South-Berkeley Homepage </title>
+    <style>
+      .v1 {
+        border-left: 1px solid gray;
+        height: 300px;
+      }
+      .v2 {
+        border-right: 1px solid gray;
+        height: 250px
+      }
+      .TitleFont{
+        font: 14px/20px Helvetica, sans-serif;
+        color: White;
+      }
+      body {
+        background-color: #2874A6;
+      }
+      h1{ 
+        color: #FFFFFF;
+      }
+    </style>
+</head>
+<body>
+<div style ="background-color:#922B21" class="TitleFont">
+<h1 title= "FBLA At SAMSB"> FBLA At STEAM Academy McCluer South-Berekley </h1>
+<h2 style="color:#FFFFFF">Welcome to the FBLA webpage for STEAM Academy!</h2>
+</div>
+<div class="slideshow-container">
 
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="FBLA STEAM 1.jpg" style="width:100%">
+    <div class="text">FBLA STEAM Academy McCluer South-Berekley!</div>
+  </div>
+
+  <div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="edge-fbla-pbl-AWOO-logo-email_signature-2.jpg" style="width:100%">
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ </div>
+ <br>
+ 
+ <div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+/*Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position of the next button to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* Transparent black color for background */
+.prev:hover, .next:hover {
+	background-color: rgba{0,0,0,0.8);
+}
+  
+ /* Caption text */
+  .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* number text 1/2 */
+.numbertext {
+	color: #2f2f2f;
+	font-size: 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots indicators */
+
+</body>
+</html>
