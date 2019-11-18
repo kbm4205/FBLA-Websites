@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+		<head>
+	<body>
+<div class="About-FBLA">
+	<div class="logo">
+		<img src="FBLA Logo.png" width="168" height="75" alt="FBLA Logo">
+	</div>
+<!--About FBLA-->
+<div class="col one_half"> </div>
+<h4> About FBLA</h4>
+<p><em>FBLA stands for Future Business Leaders of America. FBLA is a program where you can gain work experience through competitions
+against other students. As you meet new people you can make connections and become successful.</em></p>
+</div>
+<!--Social Links-->
+<div class="footer_social_button">
+	<a href="https://instagram.com/samsbfbla?igshid=u0km7vij0q8">
+		<img src="Instagram logo.png" width="24" height="24" alt="Instagram" title="Instagram">
+	</a>
+	<a href="https://twitter.com/samsbfbla">
+		<img src="Twitter logo.png" width="24" height="24" alt="Twitter" title="Twitter">
+	</a>
+</div>
+		</head>
+	</body>
+</html>
